@@ -165,7 +165,8 @@ body{
 }
 
 .main-content{
-  /* border:1px solid red; */
+  border:1px solid red;
+  /* height: 85%; */
 
 }
 
