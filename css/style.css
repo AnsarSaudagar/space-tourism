@@ -132,7 +132,7 @@ body{
   /* stroke:#979797; */
   mix-blend-mode: normal;
   opacity: 0.25;
-  left:180px;
+  left:200px;
   z-index: 1;
 }
 
@@ -149,7 +149,6 @@ body{
 .nav-btns{
   font-weight: 400;
   width: 70%;
-  /* background:blue; */
   justify-content: space-between;
 }
 
@@ -160,14 +159,14 @@ body{
 }
 
 .main-content{
-  border:1px solid red;
   height: 87%;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .main-text{
   width: 450px;
   height: 382px;
-  border:1px solid royalblue;
   font-weight: 400;
 }
 
@@ -177,8 +176,8 @@ body{
   
 }
 .explore-btn button{
+  border:none;
   cursor: pointer;
-  
   border-radius:100% ;
 }
 
