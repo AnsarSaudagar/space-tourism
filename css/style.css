@@ -154,11 +154,6 @@ body{
 }
 
 
-
-.nav-btn{
-  /* background: green; */
-}
-
 .bold{
   font-weight: 700;
   margin-right: 0.75rem;
@@ -166,9 +161,56 @@ body{
 
 .main-content{
   border:1px solid red;
-  /* height: 85%; */
-
+  height: 87%;
 }
+
+.main-text{
+  width: 450px;
+  height: 382px;
+  border:1px solid royalblue;
+  font-weight: 400;
+}
+
+.explore-btn{
+  height: 17.125rem;
+  width: 17.125rem;
+  
+}
+.explore-btn button{
+  cursor: pointer;
+  
+  border-radius:100% ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* @media (max-width: 768px) {
   .bold{

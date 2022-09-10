@@ -24,6 +24,10 @@
 
 /* ------------------------------------- */
 
+.purple-color{
+    color: var(--text-color-purple);
+}
+
 .flex-row{
     display: flex;
 }
@@ -31,4 +35,5 @@
 .hidden{
     display: none;
 }
+
 
