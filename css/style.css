@@ -180,6 +180,73 @@ body{
   cursor: pointer;
   border-radius:100% ;
 }
+@media (max-width: 768px) {
+
+  .home{
+    background:url("../assets/home/background-home-mobile.jpg");
+    height: 120%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0;
+    padding: 0;
+    
+  }
+  
+  .navbar{
+    justify-content: space-between;
+    padding: 0 5%;
+    /* margin-bottom: 5%; */
+  }
+
+  .ham{
+    display: inline;
+    height: 30%;
+  }
+
+  .logo{
+    margin: 0;
+  }
+
+  .nav{
+    /* opacity:0; */
+    display: none !important;
+  }
+  .line{
+    display: none;
+  }
+
+  .main-content{
+    margin-top: 5vh;
+    display: block;
+    /* flex-direction: column;     */
+    height: 100vh;
+  }
+  .main-text,.explore-btn{
+    text-align: center;
+    margin:auto;
+  }
+
+  .explore-btn{
+    height: 200px;
+    width: 200px;
+  }
+
+  .main-text{
+    width: 80%;
+    align-items: center !important;
+  }
+
+  .main-top{
+    font-size: var(--text-size16);
+  }
+  .main-heading{
+    font-size: 80px !important;
+  }
+  .main-para{
+    font-size: var(--text-size15) !important;
+  }
+ 
+}
 
 
 
