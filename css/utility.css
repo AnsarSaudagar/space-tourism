@@ -8,6 +8,16 @@
     font-family: 'Bellefair', serif;
 }
 
+.text14{
+    font-size: var(--text-size14);
+}
+.text15{
+    font-size: var(--text-size15);
+}
+.text16{
+    font-size: var(--text-size16);
+}
+
 .text18{
     font-size:var(--text-size18);
 }
@@ -16,6 +26,12 @@
 }
 .text32{
     font-size:var(--text-size32);
+}
+.text56{
+    font-size:var(--text-size56);
+}
+.text100{
+    font-size:var(--text-size100);
 }
 .text150{
     font-size:var(--text-size150);
